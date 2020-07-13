@@ -1,0 +1,9 @@
+alias v=vim
+alias t=tmux
+alias e=exit
+alias rm=trash
+
+# tmux
+#alias bind="tmux bind"
+#alias unbind="tmux unbind"
+#alias display-message="tmux display-message"
