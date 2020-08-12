@@ -27,4 +27,4 @@ bind r source-file ~/.tmux.conf; display-message "Config reloaded.."
 
 
 # 使用鼠标切换窗口
-set-option -g mouse-select-pane on
+# set-option -g mouse-select-pane on
