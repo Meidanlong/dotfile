@@ -1,0 +1,27 @@
+#### default-hosts ####
+
+127.0.0.1	localhost
+255.255.255.255	broadcasthost
+::1             localhost
+127.0.0.1   peer1
+127.0.0.1   peer2
+
+# Sublime
+127.0.0.1 www.sublimetext.com
+127.0.0.1 license.sublimehq.com
+
+
+# Github
+199.232.68.133 raw.githubusercontent.com
+199.232.68.133 raw.github.com
+140.82.113.4 github.com
+199.232.69.194 github.global.ssl.fastly.net
+#185.199.109.153 assets-cdn.github.com
+
+# Maven
+40.79.78.1 maven.Apache.org
+199.232.68.209 maven.org
+199.232.68.215 repo.maven.apache.org
+
+# Oracle
+137.254.120.50 oracle.com
