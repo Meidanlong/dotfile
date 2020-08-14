@@ -1,13 +1,12 @@
+#### 快捷键配置 ####
+
+# vim快捷键
 alias v=vim
+
+# tmux 快捷键
 alias t=tmux
 alias e=exit
+
+# trash-cli避免意外删除快捷键
 alias rm=trash
 
-# tmux
-alias bind="tmux bind"
-alias unbind="tmux unbind"
-alias display-message="tmux display-message"
-alias bind-key="tmux bind-key"
-alias new-session="tmux new-session"
-alias display-massage="tmux display-massage"
-alias set-option="tmux set-option"
