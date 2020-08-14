@@ -10,5 +10,5 @@
 ## 二. 执行shell文件
 
 ```shell
-
+sh ~/docfile/init-software.sh
 ```
