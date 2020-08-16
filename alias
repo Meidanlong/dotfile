@@ -11,12 +11,12 @@ alias e=exit
 alias rm=trash
 
 # tmux
-alias bind="tmux bind"
-alias unbind="tmux unbind"
-alias display-message="tmux display-message"
-alias bind-key="tmux bind-key"
-alias new-session="tmux new-session"
-alias display-massage="tmux display-massage"
-alias set-option="tmux set-option"
-alias run="tmux run"
-alias setw="tmux setw"
+#alias bind="tmux bind"
+#alias unbind="tmux unbind"
+#alias display-message="tmux display-message"
+#alias bind-key="tmux bind-key"
+#alias new-session="tmux new-session"
+#alias display-massage="tmux display-massage"
+#alias set-option="tmux set-option"
+#alias run="tmux run"
+#alias setw="tmux setw"

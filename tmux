@@ -18,7 +18,7 @@ bind -n M-Up select-pane -U
 bind -n M-Down select-pane -D
 
 # r 刷新配置
-bind r source-file ~/docfile/tmux; display-message "Config reloaded.."
+bind r source-file ~/.tmux.conf \; display-message "Config reloaded.."
 
 # 开启鼠标的支持
 set -g mouse on
@@ -39,13 +39,13 @@ set-option -g set-titles-string '#{pane_title}'
 set -g status-position bottom
 set -g xterm-keys on
 set -g status-style fg="#666666",bg=default
-#setw -g window-status-style fg="#666666",bg=default,default
-#setw -g window-status-current-style fg=red,bg=default
+setw -g window-status-style fg="#666666",bg=default,default
+setw -g window-status-current-style fg=red,bg=default
 set -g message-style fg=white,bg=black,bright
 set -g status-left " "
 set -g status-justify left
-#setw -g window-status-format         ' #I. #W '
-#setw -g window-status-current-format ' #(echo "#{pane_current_command}") '
+setw -g window-status-format         ' #I. #W '
+setw -g window-status-current-format ' #(echo "#{pane_current_command}") '
 set -g status-right " #[fg=#666666] %m-%d %H:%M "
 set -g pane-border-style fg="#222425"
 set -g pane-active-border-style fg=red,bg=default
