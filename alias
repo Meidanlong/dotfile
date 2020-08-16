@@ -10,7 +10,7 @@ alias e=exit
 # trash-cli避免意外删除快捷键
 alias rm=trash
 
-# tmux
+# tmux -> ln -s ~/docfile/tmux ~/.tmux.conf -> 则不需要alias
 #alias bind="tmux bind"
 #alias unbind="tmux unbind"
 #alias display-message="tmux display-message"
