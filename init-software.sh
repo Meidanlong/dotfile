@@ -37,8 +37,12 @@ echo 'start to install Oh-my-zsh...'
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 echo 'oh-my-zsh has installed'
 
+# 根目录添加 .tmux.conf 软链
+ln -s ~/docfile/tmux ~/.tmux.conf
+
 # 5. Bob translate
 echo 'start to install Bob...'
 brew cask install bob
 echo 'bob has installed'
+
 
