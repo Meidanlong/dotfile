@@ -21,7 +21,10 @@ bind -n M-Down select-pane -D
 bind r source-file ~/.tmux.conf \; display-message "Config reloaded.."
 
 # 开启鼠标的支持
-set -g mouse on
+set-option -g mouse on
+set-window-option -g mode-mouse on
+# 兼容vim操作方式
+setw -g mode-keys vi
 
 # 使用zsh环境
 set-option -g default-shell /bin/zsh
