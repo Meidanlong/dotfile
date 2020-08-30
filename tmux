@@ -22,7 +22,7 @@ bind r source-file ~/.tmux.conf \; display-message "Config reloaded.."
 
 # 开启鼠标的支持
 set-option -g mouse on
-set-window-option -g mode-mouse on
+# set-window-option -g mode-mouse on
 # 兼容vim操作方式
 setw -g mode-keys vi
 
