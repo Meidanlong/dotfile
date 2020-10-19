@@ -20,3 +20,6 @@ alias rm=trash
 #alias set-option="tmux set-option"
 #alias run="tmux run"
 #alias setw="tmux setw"
+
+# grep高亮显示
+alias grep='grep --color=auto'
