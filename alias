@@ -23,3 +23,7 @@ alias rm=trash
 
 # grep高亮显示
 alias grep='grep --color=auto'
+
+
+# 获取idea激活码
+alias jhm='sh ~/Documents/maoyan/sth/draft/getjhm.sh'
