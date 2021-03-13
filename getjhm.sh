@@ -7,7 +7,7 @@ unar -e GBK jihuoma.zip
 
 # echo '⬇️'
 
-cat ./jihuoma/2018.1之后的版本用这个.txt | pbcopy
+cat ./jihuoma/2018.2之后的版本用这个.txt | pbcopy
 
 rm -rf jihuoma
 
