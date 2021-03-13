@@ -27,3 +27,15 @@ alias grep='grep --color=auto'
 
 # 获取idea激活码
 alias jhm='sh ~/docfile/getjhm.sh'
+
+# git
+alias gpl='git pull'
+alias gph='git push'
+alias gad='git add .'
+alias gcm='git commit -m'
+
+
+# docker
+alias dps='docker ps -a'
+alias dim='docker images'
+alias dpl='docker pull'
