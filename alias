@@ -27,3 +27,7 @@ alias grep='grep --color=auto'
 
 # 获取idea激活码
 alias jhm='sh ~/docfile/getjhm.sh'
+
+# 其他
+alias c='clear'
+alias r='source ~/.zshrc'
