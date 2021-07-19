@@ -1,6 +1,6 @@
 [
     //删除行
-    {"key":"command+d","command":"editor.action.deleteLines"},
+    {"key":"command+d","command":"-editor.action.deleteLines"},
     //选择当前词或下一个相同词
     {"key":"command+e","command":"editor.action.addSelectionToNextFindMatch"},
 	
@@ -8,6 +8,8 @@
 	{"key":"command+1","command":"workbench.action.toggleSidebarVisibility","override":true},
 	//显示/控制台
 	{"key":"command+2","command":"workbench.action.tiggleTerminal","override":true},
+	//在命令行打开文件所在目录
+	{"key":"command+ctrl+shift+alt+t","command":"revealFileInTerminal"},
 	//显示/隐藏状态栏
 	{"key":"command+3","command":"workbench.action.toggleStatusbarVisibility","override":true},
 	
@@ -40,5 +42,8 @@
 	//切换到第9个标签卡
 	{"key":"","command":"workbench.action.openEditorAtIndex9"},
 	//切换到最末尾的标签卡
-	{"key":"","command":"workbench.action.openEditorAtIndex0"}
+	{"key":"","command":"workbench.action.openEditorAtIndex0"},
+	
+	// 移除快捷键
+	{"key":"ctrl+c","command":""}
 ]
