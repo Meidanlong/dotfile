@@ -7,12 +7,12 @@ SOFTWARE_PATH=~/Downloads
 # GRADLE
 #GRADLE_HOME=$SOFTWARE_PATH/gradle
 #PATH=$PATH:$GRADLE_HOME/bin
-#export GRADLE_HOME PATH 
+#export GRADLE_HOME PATH
 
 # MAVEN
 M2_HOME=$SOFTWARE_PATH/maven/3.6.3
 PATH=$PATH:$M2_HOME/bin
-export M2_HOME PATH 
+export M2_HOME PATH
 
 # JAVA
 JAVA_HOME=$SOFTWARE_PATH/java/8
@@ -22,6 +22,3 @@ PATH=$PATH:$JAVA_HOME/bin:$JRE_HOME/bin
 CLASSPATH=.:$JAVA_HOME/lib:$JRE_HOME/lib
 export JAVA_HOME JRE_HOME PATH CLASSPATH
 
-# Taro
-export TARO=/Users/superiron/.npm-global/lib/node_modules/@tarojs/cli/bin
-export PATH=$TARO:$PATH
